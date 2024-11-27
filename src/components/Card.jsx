@@ -16,7 +16,7 @@ export default function Card({ title, description, buttonText, image, tags, link
                     ))}
                 </div>
                 <Link to={link}>
-                    <button className={style.button}>{buttonText}</button>
+                    <button className={style.button}>Leggi di più</button>
                 </Link>
             </div>
         </div>
